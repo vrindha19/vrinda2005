@@ -60,6 +60,19 @@
 
 # B
 
+# n=5
+# for i in range(n):
+#     for j in range(0,i+1):
+#         print("*",end=" ")
+
+#     print("\n")
+# for i in range(n):
+#     for j in range(0,i-1):
+        
+#         print("*",end=" ")
+#     print("\n")
+
+
 # 7 Write a program to print the prime numbers between given interval.
 
 # lower=900
@@ -135,17 +148,18 @@
 # for i in range(1,11):
 # 	print(num,'x',i,'=',num*i)
 
-# 13
+# 13 Write a program to calculate the area and perimeter of a rectangle..
+
+# l=int(input("Length : "))
+# w=int(input("Width : "))
+# area=l*w
+# perimeter=2*(l+w)
+# print("Area of Rectangle : ",area)
+# print("Perimeter of Rectangle : ",perimeter)
 
 
+# 14 .  Write a program to find the sum of n' Natural Numbers.
 
-
-
-
-
-
-
-# 14
 
 # num=16
 # if num<0:
@@ -157,7 +171,8 @@
 #         num-=1
 #     print("The sun is ",sum)
 
-# 15 Write a program to find whether given no. is Armstrong or not
+
+# 15 . Write a program to find whether given no. is Armstrong or not
 
 # num = int(input("Enter 3-digit number : "))
  
@@ -174,7 +189,8 @@
 # else:
     # print('It is not an Armstrong number')
 
-# 16  Write a program to find the largest among 3 numbers
+
+# 16.  Write a program to find the largest among 3 numbers
 
 # print("Enter three Numbers: ")
 # numOne = int(input())
@@ -222,40 +238,43 @@
 
 # 19  Write a program to count the no:of each vowel in a given string.
 
-
-
-
-
-
-
-
-
+# string = "GeekforGeeks!"
+# vowels = "aeiouAEIOU"
+ # count = sum(string.count(vowel) for vowel in vowels)
+# print(count)
 
 
 # 20 Program to perform Addition,Subtraction,Multiplication and division on Complex-No's.
 
 
+# def addComplex( x1, x2):
+#     return x1 + x2
+ 
+# # Driver's code
+# x1 = complex(2, 3)
+# x2 = complex(1, 2)
+# print( "Addition is : ", addComplex(x1, x2))
 
 
 
+#  21 . Find Value of the following expressions
+
+# num_1=10
+# num_2=11
+
+# num3=num_1 %num_2
+# print(num3)
+
+ 
+# num_4=num_1 - num_2
+# print(num_4)
+
+# num_5=num_1*num_2
+# print(num_5)
 
 
 
-
-
-
-
-#  21 Find Value of the following expressions
-
-
-
-
-
-
-
-
-
-# 22 Find the results of the following expressions (True or False)
+# 22.  Find the results of the following expressions (True or False)
 # num_1 = 10
 
 # num_2 = 11
@@ -274,12 +293,31 @@
 # print('The sum of {0} and {1} is {2}'.format(num_1, num_2, sum))
 
 
+# 23. find the results of the following expression (true or false)
+
+
+# num_1=3
+# num_2=4
+
+# true
+
+# num1=(num_1<num_2)and(num_1!=num_2)
+# print(num1)
+
+# true
+
+# num2=(num_2>=num_1)or(num_1>num_2)
+# print(num2)
+
+# true
+
+# num3=not(num_1==num_2)
+# print(num3)
 
 
 
 
-
-#   Output of the following while loop
+# 24.   Output of the following while loop
 
 # i=1
 
@@ -290,7 +328,7 @@
 # print(i) 
 
 
-# 25. Select the correct option
+#  25 . Select the correct option
 
 # customer_num =5
 
@@ -314,12 +352,22 @@
 
 # 26. Write a python function to add ‘python’ at the end of a given string and return the new string. If the given string already ends with ‘python’ then add ‘java’. If the length of the given string is less than 5, then add ‘php’.# Use the keyword def to declare the function and follow this up with the function name
 
-# Use the keyword def to declare the function and follow this up with the function name
-#  string = "geeksforgeeks"
-# print(string.endswith("geeks"))
-
-
-
+# def modify_str(input_string):
+#     if (input_string.endswith("python")):
+#         return input_string +"java"
+#     elif len(input_string)<5:
+#         return input_string+"php"
+#     else:
+#         return input_string+"python"
+# input_str="Hello"
+# result=modify_str(input_str)
+# print(result)
+# input_str="python"
+# result=modify_str(input_str)
+# print(result)
+# input_str="programming"
+# result=modify_str(input_str)
+# print(result)
 
 
 
