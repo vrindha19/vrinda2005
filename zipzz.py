@@ -34,3 +34,36 @@
 #         zip_file.extract(file_name, "C:/Users/Python/Downloads")
 
 
+
+
+
+# new zip file
+
+
+# import zipfile
+# with zipfile.ZipFile("__pycache__/zippppp.zip.","w")as archive:
+#     archive.write("C:/Users/Python/Documents/__pycache__/vivanya.txt")
+#     archive.write("C:/Users/Python/Documents/__pycache__/red.txt")
+# print("files created")
+
+
+
+# import zipfile
+
+# with zipfile.ZipFile('zippppp.zip', 'w') as zipf:
+#     zipf.write('__pycache__/vivanya.txt', 'red.txt')
+
+# import zipfile
+# with zipfile.ZipFile('zippppp.zip', 'r') as zipf:
+#     with zipf.open('red.txt') as zip:
+#         contents = zip.read().decode('utf-8')
+# print(contents)
+
+
+
+
+
+
+
+
+
