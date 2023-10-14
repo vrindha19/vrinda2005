@@ -22,3 +22,24 @@
 
 
 
+ANS:
+
+# class Animal:
+#     def speak(self):
+#         pass
+# class dog(Animal):
+#     def speak(self):
+#         print("woof!")
+
+# class Cat(Animal):
+#     def speak(self):
+#         print("Meow!")
+
+# dog = dog()
+# cat = Cat()
+
+# dog.speak()
+# cat.speak()
+
+
+
